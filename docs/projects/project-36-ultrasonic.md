@@ -27,7 +27,7 @@ The ultrasonic sensor uses sonar to determine distance to an object. It offers e
 
 ## **Connection Diagram**
 
-![Ultrasonic Sensor Connection](../../assets/images/diagrams/ultrasonic-connection.png)
+![Ultrasonic Sensor Connection]({{ '/assets/images/ultrasonic-connection.png' | relative_url }})
 
 | Sensor Pin | Arduino Pin |
 |------------|-------------|
@@ -38,8 +38,8 @@ The ultrasonic sensor uses sonar to determine distance to an object. It offers e
 
 ## **Sample Code**
 
-```
-// Ultrasonic Sensor Distance Measurement V3
+```c
+// Ultrasonic Sensor Distance Measurement V4
 const int trigPin = 7;
 const int echoPin = 8;
 
