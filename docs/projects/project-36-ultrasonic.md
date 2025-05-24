@@ -38,7 +38,7 @@ The ultrasonic sensor uses sonar to determine distance to an object. It offers e
 
 ## **Sample Code**
 
-```c
+```
 // Ultrasonic Sensor Distance Measurement V3
 const int trigPin = 7;
 const int echoPin = 8;
