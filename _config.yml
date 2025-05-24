@@ -25,3 +25,4 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+      css: "/assets/css/custom.css"

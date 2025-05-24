@@ -1,0 +1,16 @@
+/* Style for code blocks (```c ... ```) */
+pre, pre code {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+/* Style for inline code (`...`) */
+code {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
